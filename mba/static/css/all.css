@@ -228,6 +228,7 @@ ul { list-style-type: none; }
 	background-color:white;
 }
 
+
 .mba-resume-edit
 {
   /*background:url("img/resume_edit.jpg") center;*/
@@ -937,7 +938,20 @@ a.jiaohuan_see{
 
 
 /** merged from new_style.css end */
+/***laoyang css here****************/
 
+.job_detail_cnt  div.container{
+  padding:10px; 
+}
+
+.job_detail_cnt div.padding-15{
+  padding-left: 25px;
+}
+
+p.first{
+    padding-bottom: 5px;
+    padding-left: 5px;
+   }
 
 .shoucang_job{
   padding-left: 15px;
@@ -970,6 +984,7 @@ div.jianli_manage span{
   border-left: 1px solid #CDC9C4;
   border-right: 1px solid #CDC9C4;
   border-bottom: 1px solid #CDC9C4;
+  padding-bottom: 10px;
 }
 
 .job_link{
@@ -981,6 +996,7 @@ div.jianli_manage span{
   padding-bottom: 4px;
   margin-left: 10px;
 }
+
 
 
 
@@ -1013,6 +1029,7 @@ div.jianli_manage span{
       display:inline-block; 
       margin-right: 2px;
   }
+
 .person_info_absolute{
   position: absolute;
   left: 115px;
@@ -1042,29 +1059,28 @@ div.jianli_manage span{
   height: 40px;
 }
 
-/* below should be commented because it defined before */
-/*#person_info .info_auth{*/
-    /*background-image: url("/fanstatic/mba/img/info_auth.png");*/
-  /*}*/
-/*#person_info .activity_auth{*/
-    /*background-image: url("/fanstatic/mba/img/activity_auth.png");*/
-  /*}*/
+#person_info .info_auth{
+    background-image: url("/fanstatic/mba/img/info_auth.png");
+  }
+#person_info .activity_auth{
+    background-image: url("/fanstatic/mba/img/activity_auth.png");
+  }
 
- /*#person_info .friend_auth{*/
-    /*background-image: url("/fanstatic/mba/img/friend_auth.png");*/
-  /*}*/
+ #person_info .friend_auth{
+    background-image: url("/fanstatic/mba/img/friend_auth.png");
+  }
 
-  /*#person_info.info_auth_disable{*/
-    /*background-image: url("/fanstatic/mba/img/info_auth.png");*/
-  /*}*/
+  #person_info.info_auth_disable{
+    background-image: url("/fanstatic/mba/img/info_auth.png");
+  }
 
-  /*#person_info .activity_auth_disable{*/
-    /*background-image: url("/fanstatic/mba/img/activity_auth.png");*/
-  /*}*/
+  #person_info .activity_auth_disable{
+    background-image: url("/fanstatic/mba/img/activity_auth.png");
+  }
 
-  /*#person_info .friend_auth_disable{*/
-    /*background-image: url("/fanstatic/mba/img/friend_auth.png");*/
-  /*}*/
+  #person_info .friend_auth_disable{
+    background-image: url("/fanstatic/mba/img/friend_auth.png");
+  }
 
 .shoucang_job{
   padding-left: 15px;
@@ -1227,6 +1243,8 @@ div.job_relative span{
   right:0px;
   padding-right: 15px;
   cursor: pointer;
+  padding-left: 10px;
+  margin-bottom: 10px;
   background: url("/fanstatic/mba/img/go.png") no-repeat right;
 }
 
@@ -1365,6 +1383,15 @@ div.job_relative span{
   background-color: #D0E9F3;
   border: 1px solid RGB(72,190,234);
   height: 134px;
+  line-height: 134px;
+}
+
+.no_padding{
+  padding: 0px;
+}
+
+.search_cnt2  #search_region,#search_hangye,#search_fabufang,#gangwei{
+    margin: 0px 6px;
 }
 
 #btn-search{
